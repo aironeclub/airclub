@@ -8292,3 +8292,17 @@ dialog :link {
     display: none;
   }
 }
+
+/* Hide the entire PDF.js toolbar */
+.toolbar,
+#toolbarContainer,
+#toolbarSidebar,
+#secondaryToolbar,
+#loadingBar {
+    display: none !important;
+}
+
+/* Let the PDF use the full screen */
+#viewerContainer {
+    inset: 0 !important;
+}
